@@ -18,7 +18,6 @@ import org.eclipse.aether.transport.file.FileTransporterFactory;
 import org.eclipse.aether.transport.http.HttpTransporterFactory;
 import org.junit.Ignore;
 
-@Ignore
 public class KuberamAbstractMojoTestBase extends PlexusTestCase {
 
 	protected static String baseDir = PlexusTestCase.getBasedir();
