@@ -49,14 +49,9 @@
 	</prerequisites>
 
 	<properties>
-<<<<<<< HEAD
-		<java-version>1.8</java-version>
-		<mavenVersion>3.1.1</mavenVersion>
-=======
 		<mavenVersion>3.3.3</mavenVersion>
->>>>>>> branch 'master' of https://github.com/claudius108/maven-plugins.git
 		<mavenPluginPluginVersion>3.4</mavenPluginPluginVersion>
-		<aetherVersion>0.9.0.M3</aetherVersion>
+		<aetherVersion>1.1.0</aetherVersion>
 		<versionProjectInfoReportsPlugin>2.7</versionProjectInfoReportsPlugin>
 		<versionJavadocPlugin>2.9.1</versionJavadocPlugin>
 		<versionSurefirePlugin>2.16</versionSurefirePlugin>
