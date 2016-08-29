@@ -50,13 +50,8 @@
 
 	<properties>
 		<java-version>1.8</java-version>
-<<<<<<< HEAD
-		<aetherVersion>0.9.0.M3</aetherVersion>
-		<mavenPluginVersion>3.2</mavenPluginVersion>
-=======
 		<aetherVersion>1.1.0</aetherVersion>
 		<mavenPluginVersion>3.4</mavenPluginVersion>
->>>>>>> branch 'master' of https://github.com/claudius108/maven-plugins.git
 	</properties>
 
 	<dependencies>
@@ -146,30 +141,30 @@
 		</extensions>
 		<pluginManagement>
 			<plugins>
-<!-- 				<plugin> -->
-<!-- 					<groupId>org.eclipse.m2e</groupId> -->
-<!-- 					<artifactId>lifecycle-mapping</artifactId> -->
-<!-- 					<version>1.0.0</version> -->
-<!-- 					<configuration> -->
-<!-- 						<lifecycleMappingMetadata> -->
-<!-- 							<pluginExecutions> -->
-<!-- 								<pluginExecution> -->
-<!-- 									<pluginExecutionFilter> -->
-<!-- 										<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 										<artifactId>maven-enforcer-plugin</artifactId> -->
-<!-- 										<versionRange>[1.0.0,)</versionRange> -->
-<!-- 										<goals> -->
-<!-- 											<goal>enforce</goal> -->
-<!-- 										</goals> -->
-<!-- 									</pluginExecutionFilter> -->
-<!-- 									<action> -->
-<!-- 										<ignore /> -->
-<!-- 									</action> -->
-<!-- 								</pluginExecution> -->
-<!-- 							</pluginExecutions> -->
-<!-- 						</lifecycleMappingMetadata> -->
-<!-- 					</configuration> -->
-<!-- 				</plugin> -->
+				<!-- <plugin> -->
+				<!-- <groupId>org.eclipse.m2e</groupId> -->
+				<!-- <artifactId>lifecycle-mapping</artifactId> -->
+				<!-- <version>1.0.0</version> -->
+				<!-- <configuration> -->
+				<!-- <lifecycleMappingMetadata> -->
+				<!-- <pluginExecutions> -->
+				<!-- <pluginExecution> -->
+				<!-- <pluginExecutionFilter> -->
+				<!-- <groupId>org.apache.maven.plugins</groupId> -->
+				<!-- <artifactId>maven-enforcer-plugin</artifactId> -->
+				<!-- <versionRange>[1.0.0,)</versionRange> -->
+				<!-- <goals> -->
+				<!-- <goal>enforce</goal> -->
+				<!-- </goals> -->
+				<!-- </pluginExecutionFilter> -->
+				<!-- <action> -->
+				<!-- <ignore /> -->
+				<!-- </action> -->
+				<!-- </pluginExecution> -->
+				<!-- </pluginExecutions> -->
+				<!-- </lifecycleMappingMetadata> -->
+				<!-- </configuration> -->
+				<!-- </plugin> -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
@@ -199,15 +194,15 @@
 			</plugins>
 		</pluginManagement>
 		<plugins>
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 				<artifactId>maven-release-plugin</artifactId> -->
-<!-- 				<inherited>true</inherited> -->
-<!-- 				<configuration> -->
-<!-- 					<tagBase>https://github.com/claudius108/kuberam/</tagBase> -->
-<!-- 					<releaseProfiles>multimodule-tag-modules</releaseProfiles> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
+			<!-- <plugin> -->
+			<!-- <groupId>org.apache.maven.plugins</groupId> -->
+			<!-- <artifactId>maven-release-plugin</artifactId> -->
+			<!-- <inherited>true</inherited> -->
+			<!-- <configuration> -->
+			<!-- <tagBase>https://github.com/claudius108/kuberam/</tagBase> -->
+			<!-- <releaseProfiles>multimodule-tag-modules</releaseProfiles> -->
+			<!-- </configuration> -->
+			<!-- </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
