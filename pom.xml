@@ -49,6 +49,7 @@
 	</prerequisites>
 
 	<properties>
+		<java-version>1.8</java-version>
 		<mavenVersion>3.1.1</mavenVersion>
 		<mavenPluginPluginVersion>3.4</mavenPluginPluginVersion>
 		<aetherVersion>0.9.0.M3</aetherVersion>
@@ -143,6 +144,14 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.3</version>
+					<configuration>
+						<source>${java-version}</source>
+						<target>${java-version}</target>
+					</configuration>
+				</plugin>
 				<plugin>
 					<artifactId>maven-plugin-plugin</artifactId>
 					<version>${mavenPluginPluginVersion}</version>
