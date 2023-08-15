@@ -49,7 +49,7 @@
 	</prerequisites>
 
 	<properties>
-		<mavenVersion>3.3.3</mavenVersion>
+		<mavenVersion>3.8.1</mavenVersion>
 		<mavenPluginPluginVersion>3.4</mavenPluginPluginVersion>
 		<aetherVersion>1.1.0</aetherVersion>
 		<versionProjectInfoReportsPlugin>2.7</versionProjectInfoReportsPlugin>
